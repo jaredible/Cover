@@ -5,7 +5,7 @@ const process = require('process');
 const app = express();
 const server = require('http').Server(app);
 
-const PORT = process.env.port || 8000;
+const PORT = process.env.port || 1000;
 const HOST = process.env.host || 'localhost';
 const ENV = app.get('env');
 
