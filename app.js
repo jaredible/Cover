@@ -15,6 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     res.render('index', { title: 'Jared Diehl' });
 });
+// fix
 
 server.listen(PORT, HOST, () => {
     console.log(`${ENV.charAt(0).toUpperCase() + ENV.substring(1)} app listening at http://${server.address().address}:${server.address().port}`);
