@@ -1,2 +1,0 @@
-# Cover
-My cover page
